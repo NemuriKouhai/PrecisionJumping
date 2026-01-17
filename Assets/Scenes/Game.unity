@@ -189,6 +189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307254636}
   - component: {fileID: 307254635}
+  - component: {fileID: 307254637}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -266,6 +267,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &307254637
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307254634}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &849768425
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,7 +665,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 86012192518004964, guid: b9f52cd3993b70c4096dfab2cc62acbb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.77
+      value: 47.82
       objectReference: {fileID: 0}
     - target: {fileID: 86012192518004964, guid: b9f52cd3993b70c4096dfab2cc62acbb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -679,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1327756210587546298, guid: c193094fd553fe7408ad68c83ebb9c8f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.67
+      value: -2.92
       objectReference: {fileID: 0}
     - target: {fileID: 1327756210587546298, guid: c193094fd553fe7408ad68c83ebb9c8f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -721,7 +768,9 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Mario","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Rigidbody2D,
         UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bar","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"maxJumpHeight","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"maxPressedTime","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5573690700992751450, guid: c193094fd553fe7408ad68c83ebb9c8f, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -803,7 +852,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 86012192518004964, guid: b9f52cd3993b70c4096dfab2cc62acbb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.22
       objectReference: {fileID: 0}
     - target: {fileID: 86012192518004964, guid: b9f52cd3993b70c4096dfab2cc62acbb, type: 3}
       propertyPath: m_LocalPosition.y
